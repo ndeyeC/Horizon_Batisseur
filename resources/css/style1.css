@@ -1,0 +1,54 @@
+.custom-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.custom-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card img {
+    transition: transform 0.3s ease;
+}
+
+.custom-card img:hover {
+    transform: scale(1.05);
+}
+
+.custom-card .card-body {
+    text-align: center;
+}
+
+.custom-card .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.custom-card .card-text {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.badge-custom {
+    font-size: 0.875rem;
+    padding: 0.5em 0.75em;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.alert-custom {
+    background-color: #ffdd57;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
